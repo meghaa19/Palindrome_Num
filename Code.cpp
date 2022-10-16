@@ -7,11 +7,11 @@ public:
         reverse(str_num_rev.begin(),str_num_rev.end());
         if(str_num==str_num_rev)
         {
-            return true;
+            return 1;
         }
         else
         {
-            return false;
+            return 0;
         }
         
         

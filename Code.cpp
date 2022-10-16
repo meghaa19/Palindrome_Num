@@ -13,7 +13,8 @@ public:
         {
             return 0;
         }*/
-        int reverse=0;
+   if(x>0)
+   {    int reverse=0;
         int rem=0;
         int original=x;
         while(x!=0)
@@ -30,6 +31,7 @@ public:
         {
             return false;
         }
+     
     } 
     
     
